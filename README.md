@@ -1,7 +1,7 @@
 # terraform-azure-myfirstmodule
 # module usage
 module "storageaccount" {
-  source = "../local_modules/storageaccount"
+  source = "../AnjiMuduthanapally/terraform-azure-myfirstmodule/azurerm"
   assetname = "anji"
   environment = "dev"
   resource_group_location = "west europe"
