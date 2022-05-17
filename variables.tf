@@ -9,28 +9,28 @@ variable "assetname" {
 variable "environment" {
   type = string
 }
-variable "resource_group_name" {
+variable "rg_name" {
   type = string
 }
-variable "resource_group_location" {
+variable "rg_location" {
   type = string
 }
 
-variable "subscription_id" {
+variable "sub_id" {
   type = string
   
 }
-variable "client_id" {
-  type = string
-  
-}
-
-variable "client_secret" {
+variable "cli_id" {
   type = string
   
 }
 
-variable "tenant_id" {
+variable "cli_secret" {
+  type = string
+  
+}
+
+variable "ten_id" {
   type = string
   
 }
