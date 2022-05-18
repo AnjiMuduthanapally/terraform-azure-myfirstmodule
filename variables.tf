@@ -16,22 +16,4 @@ variable "rg_location" {
   type = string
 }
 
-variable "sub_id" {
-  type = string
-  
-}
-variable "cli_id" {
-  type = string
-  
-}
-
-variable "cli_secret" {
-  type = string
-  
-}
-
-variable "ten_id" {
-  type = string
-  
-}
 
