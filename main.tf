@@ -6,9 +6,7 @@ terraform {
     }
   }
 }
-provider "azurerm" {
-  features {}
-}
+
 
 locals {
   sa_name = format("sa%s%s000", var.assetname, var.environment)
