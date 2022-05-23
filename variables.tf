@@ -9,10 +9,10 @@ variable "assetname" {
 variable "environment" {
   type = string
 }
-variable "rg_name" {
+variable "resource_group_name" {
   type = string
 }
-variable "rg_location" {
+variable "resource_group_location" {
   type = string
 }
 variable "subscription_id" {
