@@ -15,8 +15,8 @@ locals {
 }
 
 resource "azurerm_resource_group" "main" {
-  name = var.rg_name
-  location = var.rg_location
+  name = var.resource_group_name
+  location = var.resource_group_location
   
 }
 
